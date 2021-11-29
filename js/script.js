@@ -3,3 +3,8 @@ window.addEventListener('load', () => {
     contenedor_loader.style.opacity = 0
     contenedor_loader.style.visibility = 'hidden'
 })
+
+$(document).ready(function() {
+    var height = $(window).height();
+    $('.slider').height(height);
+});
