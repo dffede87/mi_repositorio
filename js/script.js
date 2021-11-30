@@ -17,9 +17,9 @@ $(window).scroll(function() {
     var scrollValue = $(window).scrollTop();
     if(scrollalue > headerPosition) {
         $('.header').addClass('sticky');
-        $('.logo').addClass('logoSticky');
+        $('.logoImg').addClass('logoSticky');
     } else {
         $('.header').removeClass('sticky');
-        $('.logo').removeClass('logoSticky');
+        $('.logoImg').removeClass('logoSticky');
     }
 });
