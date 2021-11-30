@@ -100,14 +100,16 @@ section {
     width: 300px; }
 
 .portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-image: url(../img/fondo-slider.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
   .portada h1 {
-    position: relative;
-    padding: 200px 0; }
+    position: relative; }
 
 .fondoTransparenteNegro {
   background-color: rgba(233, 67, 120, 0.35);
@@ -728,7 +730,5 @@ footer {
   .article__texto {
     text-align: left;
     margin-bottom: 0; }
-  .portada h1 {
-    padding: 160px 0; }
   .tituloRedes {
     text-align: left; } }
