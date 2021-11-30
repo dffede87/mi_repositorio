@@ -8,3 +8,18 @@ $(document).ready(function() {
     var height = $(window).height();
     $('#slider').height(height);
 });
+
+/* Sticky Header */
+
+var headerPosition = $('#header').offset().top;
+
+$(window).scroll(function() {
+    var scrollValue = $(window).scrollTop();
+    if(scrollalue > headerPosition) {
+        $('#header').addClass('sticky');
+        $('#logo').addClass('logoSticky');
+    } else {
+        $('#header').removeClass('sticky');
+        $('#logo').removeClass('logoSticky');
+    }
+});

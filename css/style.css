@@ -220,9 +220,17 @@ header {
   position: fixed;
   z-index: 9990;
   width: 100%;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s; }
   header nav {
     background-color: white !important; }
+
+.sticky {
+  position: fixed;
+  z-index: 9990;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
 
 .divHeader {
   display: flex;
@@ -288,7 +296,11 @@ header {
 .logo {
   margin-left: 12.5px; }
   .logo a img {
-    width: 70px; }
+    width: 105px; }
+
+.logoSticky {
+  width: 80px;
+}
 
 .textoCopyright {
   font-family: 'Roboto', sans-serif;
@@ -625,8 +637,6 @@ footer {
   text-decoration: none; }
 
 @media only screen and (min-width: 768px) {
-  .logo a img {
-    width: 90px; }
   .slider {
     height: 700px; }
   .slider__logo:hover {
@@ -667,7 +677,8 @@ footer {
   .divHeader {
     display: inline-block; }
   header {
-    position: relative; }
+    position: relative;
+    transition: all 0.5s; }
   .menu {
     display: inline-block; }
     .menu ul li {
