@@ -15,7 +15,7 @@ var headerPosition = $('.header').offset().top;
 
 $(window).scroll(function() {
     var scrollValue = $(window).scrollTop();
-    if(scrollalue > headerPosition) {
+    if(scrollValue > headerPosition) {
         $('.header').addClass('sticky');
         $('.logoImg').addClass('logoSticky');
     } else {
