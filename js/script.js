@@ -6,5 +6,5 @@ window.addEventListener('load', () => {
 
 $(document).ready(function() {
     var height = $(window).height();
-    $('#slider').height(height);
+    $('.slider').height(height);
 });
