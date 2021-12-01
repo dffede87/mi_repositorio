@@ -303,7 +303,7 @@ header {
 }
 
 .logoSticky {
-  width: 80px;
+  width: 70px;
   transition: all 0.5s;
 }
 
@@ -642,6 +642,10 @@ footer {
   text-decoration: none; }
 
 @media only screen and (min-width: 768px) {
+  .logoSticky {
+    width: 90px;
+    transition: all 0.5s;
+  }
   .slider {
     height: 700px; }
   .slider__logo:hover {
