@@ -221,7 +221,7 @@ header {
   z-index: 9990;
   width: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  transition: all 0.5s; }
+  transition: all 0.4s; }
   header nav {
     background-color: white !important; }
 
@@ -298,13 +298,13 @@ header {
 }
 
 .logoImg {
-  width: 105px;
-  transition: all 0.5s;
+  width: 90px;
+  transition: all 0.4s;
 }
 
 .logoSticky {
   width: 70px;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 
 .textoCopyright {
@@ -651,8 +651,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .logoSticky {
-    width: 80px;
-    transition: all 0.5s;
+    width: 70px;
+    transition: all 0.4s;
   }
   .slider {
     height: 700px; }
@@ -701,7 +701,7 @@ footer {
     display: inline-block; }
   header {
     position: relative;
-    transition: all 0.5s; }
+    transition: all 0.4s; }
   .menu {
     display: inline-block; }
     .menu ul li {
