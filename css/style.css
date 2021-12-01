@@ -297,6 +297,10 @@ header {
   margin-left: 12.5px; 
 }
 
+.logoImg {
+  width: 105px;
+}
+
 .logoSticky {
   width: 80px;
 }
