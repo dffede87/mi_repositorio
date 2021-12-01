@@ -299,10 +299,12 @@ header {
 
 .logoImg {
   width: 105px;
+  transition: all 0.5s;
 }
 
 .logoSticky {
   width: 80px;
+  transition: all 0.5s;
 }
 
 .textoCopyright {
