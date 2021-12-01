@@ -294,9 +294,8 @@ header {
   text-align: center; }
 
 .logo {
-  margin-left: 12.5px; }
-  .logo a img {
-    width: 105px; }
+  margin-left: 12.5px; 
+}
 
 .logoSticky {
   width: 80px;
