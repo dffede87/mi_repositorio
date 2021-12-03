@@ -48,6 +48,10 @@
   margin: 0;
   padding: 0; }
 
+body {
+  position: relative;
+}
+
 html {
   font-size: 62.5%;
   letter-spacing: 0.07rem; }
@@ -217,7 +221,8 @@ h2 {
     padding-bottom: 10px; }
 
 header {
-  position: fixed;
+  position: absolute;
+  top: -65px;
   z-index: 9990;
   width: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -227,6 +232,7 @@ header {
 
 .sticky {
   position: fixed;
+  top: 0;
   z-index: 9990;
   width: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -298,7 +304,7 @@ header {
 }
 
 .logoImg {
-  width: 90px;
+  width: 70px;
   transition: all 0.4s;
 }
 
