@@ -705,7 +705,6 @@ footer {
   .divHeader {
     display: inline-block; }
   header {
-    position: relative;
     transition: all 0.4s; }
   .menu {
     display: inline-block; }
