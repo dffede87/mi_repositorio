@@ -240,9 +240,9 @@ header {
 
 @keyframes sticky {
   0% {
-    transform: translate(-65px, 0); }
+    transform: translate(0, -65px); }
   100% {
-    transform: translate(65px, 0); } }
+    transform: translate(0, 0); } }
 
 .divHeader {
   display: flex;
