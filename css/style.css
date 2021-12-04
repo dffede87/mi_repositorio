@@ -244,6 +244,20 @@ header {
   100% {
     transform: translate(0, 0); } }
 
+.unsticky {
+  animation-name: unsticky;
+  animation-duration: 0.4s;
+  animation-timing-function: ease;
+}
+
+@keyframes unsticky {
+  0% {
+    transform: translate(0, 0); }
+  99% {
+    transform: translate(0, -65px); }
+  100% {
+    transform: scale(0, 0); } }
+
 .divHeader {
   display: flex;
   justify-content: space-between;

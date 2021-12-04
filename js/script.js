@@ -17,9 +17,11 @@ $(window).scroll(function() {
     var scrollValue = $(window).scrollTop();
     if(scrollValue > headerPosition) {
         $('.header').addClass('sticky');
+        $('.header').removeClass('unsticky');
         $('.logoImg').addClass('logoSticky');
     } else {
         $('.header').removeClass('sticky');
+        $('.header').addClass('unsticky');
         $('.logoImg').removeClass('logoSticky');
     }
 });
