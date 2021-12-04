@@ -245,6 +245,9 @@ header {
     transform: translate(0, 0); } }
 
 .unsticky {
+  display: block;
+  position: fixed;
+  transform: scale(0);
   animation-name: unsticky;
   animation-duration: 0.4s;
   animation-timing-function: ease;
