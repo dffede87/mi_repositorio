@@ -77,9 +77,6 @@ section {
   padding: 100px 20px !important; }
 
 .slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   height: 700px;
   overflow: hidden; }
@@ -91,6 +88,9 @@ section {
   height: 100%; }
 
 .slider__fondo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(233, 67, 120, 0.2);
   position: absolute;
   top: 0;
