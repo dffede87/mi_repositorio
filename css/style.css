@@ -573,10 +573,12 @@ footer {
 .pFlex {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  background-color: #EB5777;
+  padding-top: 100px;
   padding-bottom: 100px; }
   .pFlex p {
-    width: 600px; }
+    width: 600px;
+    color: white; }
 
 .sectionGris {
   background-color: #f9f9f9; }
