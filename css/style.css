@@ -560,9 +560,23 @@ footer {
   position: relative;
 }
 
-.pattern {
+.pattern-p {
   height: 9px;
   background: url(https://www.mamuschka.com/sitiowp/wp-content/themes/el-chocolate-mas-rico/img/patternTopPink.svg) bottom left repeat-x;
+  background-size: 28px 9px !important;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100%;
+}
+
+.contProd {
+  position: relative;
+}
+
+.pattern-w {
+  height: 9px;
+  background: url(https://www.mamuschka.com/sitiowp/wp-content/themes/el-chocolate-mas-rico/img/patternTopWhite.svg) bottom left repeat-x;
   background-size: 28px 9px !important;
   position: absolute;
   top: -8px;
