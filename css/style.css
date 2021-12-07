@@ -599,6 +599,7 @@ footer {
 
 .sectionPink {
   background-color: #EB5777;
+  position: relative;
 }
 
 .sectionPink h2 {
