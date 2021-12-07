@@ -550,7 +550,7 @@ footer {
   .productos__producto img {
     width: 300px; }
   .productos__producto span a {
-    color: #009C96; }
+    color: white; }
 
 .productos__producto:hover {
   transform: scale(1.05, 1.05);
