@@ -556,6 +556,10 @@ footer {
   transform: scale(1.05, 1.05);
   transition: all 0.5s ease; }
 
+.contPasteleria {
+  position: relative;
+}
+
 .pattern {
   height: 9px;
   background: url(https://www.mamuschka.com/sitiowp/wp-content/themes/el-chocolate-mas-rico/img/patternTopPink.svg) bottom left repeat-x;
