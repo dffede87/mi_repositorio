@@ -597,6 +597,14 @@ footer {
 .sectionGris {
   background-color: #f9f9f9; }
 
+.sectionPink {
+  background-color: #EB5777;
+}
+
+.sectionPink h2 {
+  color: white;
+}
+
 .sectionMaps {
   margin: 0 !important;
   padding: 0 !important;
