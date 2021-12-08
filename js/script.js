@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
     const contenedor_loader = document.querySelector('.contenedor_loader')
     contenedor_loader.style.opacity = 0
     contenedor_loader.style.visibility = 'hidden'
-    $('.animate__animated').addClass('animate__fadeInUp')
+    $('.animate__animated').addClass('animate__fadeInDown')
 })
 
 $(document).ready(function() {
