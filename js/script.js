@@ -1,7 +1,9 @@
 window.addEventListener('load', () => {
     const contenedor_loader = document.querySelector('.contenedor_loader')
+    const animated_object = document.querySelector('.animate__animated')
     contenedor_loader.style.opacity = 0
     contenedor_loader.style.visibility = 'hidden'
+    animated_object.addClass('animate__fadeInUp');
 })
 
 $(document).ready(function() {
