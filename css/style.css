@@ -777,18 +777,6 @@ footer {
   }
   .slider {
     height: 700px; }
-  .slider__logo:hover {
-    animation-name: pulso;
-    animation-duration: 0.6s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite; }
-  @keyframes pulso {
-    0% {
-      transform: scale(1, 1); }
-    75% {
-      transform: scale(0.96, 0.96); }
-    100% {
-      transform: scale(1, 1); } }
   .slider__logo img {
     width: 450px; }
   .imgCualidades img {
