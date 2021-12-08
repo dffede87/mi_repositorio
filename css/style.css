@@ -189,6 +189,7 @@ section {
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 6.5rem;
+  text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black; }
 
