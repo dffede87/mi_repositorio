@@ -160,6 +160,9 @@ section {
     position: relative; }
 
 .fondoTransparenteNegro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(233, 67, 120, 0.35);
   position: absolute;
   top: 0;
